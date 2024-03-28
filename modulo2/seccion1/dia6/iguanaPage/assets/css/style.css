@@ -42,6 +42,7 @@ main > #info-top > article > p {
     padding: 0 9em;
     line-height: 25px;
     word-spacing: 2px;
+    font-weight: 300;
 }
 
 main > #info-top > #image1 {
@@ -70,6 +71,7 @@ main > #info-bottom > #icons-section > .icons {
 
 main > #info-bottom > #icons-section > .icons > p {
     font-size: 24px;
+    font-weight: 300;
 }
 
 main > #info-bottom > #images-section {
