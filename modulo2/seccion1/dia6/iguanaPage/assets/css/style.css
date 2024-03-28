@@ -51,6 +51,7 @@ main > #info-top > #image1 {
 
 main > #info-bottom {
     margin-top: 100px;
+    background: #1e1a13;
 }
 
 main > #info-bottom > h2 {
