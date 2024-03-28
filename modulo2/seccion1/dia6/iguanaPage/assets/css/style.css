@@ -85,4 +85,6 @@ main > #info-bottom > #images-section > img {
 
 footer {
     letter-spacing: 4px;
+    font-weight: 300;
+    background: #1e1a13
 }
