@@ -1,0 +1,24 @@
+#proxima-charla {
+    background: #A4452C;
+    color: #fff;
+    padding: 100px;
+}
+
+#proxima-charla > .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper > img {
+    width: 25%;
+}
+
+.wrapper > .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper > img, .wrapper > .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
