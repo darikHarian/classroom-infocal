@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-green {
+    background: #28A745;
+}
+
+.navbar-brand {
+    width: 230px;
+}
+
+.nav-link {
+    font-size: 25px;
+}
