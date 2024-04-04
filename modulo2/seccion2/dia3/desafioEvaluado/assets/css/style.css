@@ -13,3 +13,33 @@ body {
 .nav-link {
     font-size: 25px;
 }
+
+.card-img {
+    height: 250px;
+}
+
+.card-title {
+    height: 100px;
+}
+
+.btn {
+    width: 120px;
+}
+
+footer > div > img {
+    width: 170px;
+}
+
+footer > div > h1 {
+    font-size: 19px;
+}
+
+@media screen and (min-width:768px) {
+    .card-title {
+        font-size: 26px !important;
+    }
+
+    .form-control {
+        width: 30vw;
+    }
+}
