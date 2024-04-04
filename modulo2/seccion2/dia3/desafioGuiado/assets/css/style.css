@@ -1,0 +1,85 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-lightblue {
+    background: #17A2B8;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+.hero-section {
+background: url('../img/bg-hero.jpg');
+background-size:cover;
+background-position: calc(22%);
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.hero-section > div {
+    width: 450px;
+}
+
+.hero-section > div > h1 {
+    font-size: 47px !important;
+}
+
+.hero-section > div > p, .about > div > p {
+    font-size: 25px !important;
+}
+
+.about > .me > h2 {
+    font-size: 35px !important;
+}
+
+.about > .me {
+    height: 130px;
+}
+
+.char > span {
+    font-size: 40px !important;
+}
+
+.card-img {
+    height: 252px;
+}
+
+.card-img-top {
+    top: -40px;
+}
+
+.card-works > .card-body > .card-title {
+    font-size: 26px !important;
+}
+
+.card-works > .card-body > .card-text {
+    font-size: 24px !important;
+}
+
+footer > div > span {
+    font-size: 20px !important;
+}
+
+@media screen and (min-width:768px) {
+    .hero-section > div {
+        width: 950px;
+    }
+
+    .hero-section > div > h1 {
+        font-size: 82px !important;
+    }
+
+    .about > .me > h2 {
+        font-size: 59px !important;
+    }
+
+    .about > .me {
+        height: 170px;
+    }
+
+    .card-img {
+        height: 350px;
+    }
+}
