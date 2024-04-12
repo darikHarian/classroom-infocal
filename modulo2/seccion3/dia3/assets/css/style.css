@@ -1,0 +1,11 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.rlogo {
+    font-family: 'Lobster', sans-serif;
+}
+
+.navbar-brand > .rlogo {
+    font-size: 47px !important;
+}
