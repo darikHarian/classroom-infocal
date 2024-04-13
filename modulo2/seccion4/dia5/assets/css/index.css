@@ -3,11 +3,29 @@
 }
 
 .bg-semi-transparent {
-    background: rgba(0,0,0,.5)
+    background: rgba(33,37,41,.95);
+}
+
+.card-img {
+    height: 25vh;
+}
+
+.card-body {
+    text-shadow: 2px 2px 3px #212529;
 }
 
 @media screen and (min-width: 768px) {
+    .card-img {
+        height: 19vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .bg-semi-transparent {
-        background: rgba(0,0,0,.0)
+        background: rgba(0,0,0,.0);
+    }
+
+    .carousel-item > img {
+        height: 100vh;
     }
 }
