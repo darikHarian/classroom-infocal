@@ -22,6 +22,10 @@
     text-shadow: 1px 1px 2px #212529;
 }
 
+.footer-text, .footer-icons {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .card-img {
         height: 200px;
@@ -29,6 +33,16 @@
 
     .card-txt {
         height: 12vh;
+    }
+
+    .footer-text {
+        text-align: start;
+        padding-left: 10vw;
+    }
+
+    .footer-icons {
+        text-align: end;
+        padding-right: 10vw;
     }
 }
 
