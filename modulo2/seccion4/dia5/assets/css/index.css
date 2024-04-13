@@ -2,12 +2,19 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+#navbar-bg {
+    height: 8.5vh;
+    background: transparent;
+    top: -1px;
+    filter: blur(1px);
+}
+
 .navbar-brand > img {
     width: 40px;
 }
 
 .bg-semi-transparent {
-    background: rgba(33,37,41,.95);
+    background: #212529;
 }
 
 .text-about {
@@ -36,6 +43,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+    #navbar-bg {
+        height: 7.5vh;
+    }
+
     .card-img {
         height: 200px;
     }
@@ -57,7 +68,7 @@ a {
 
 @media screen and (min-width: 992px) {
     .bg-semi-transparent {
-        background: rgba(0,0,0,.0);
+        background: transparent;
     }
 
     .carousel-item > img {
