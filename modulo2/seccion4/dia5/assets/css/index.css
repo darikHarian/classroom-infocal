@@ -1,0 +1,13 @@
+.navbar-brand > img {
+    width: 40px;
+}
+
+.bg-semi-transparent {
+    background: rgba(0,0,0,.5)
+}
+
+@media screen and (min-width: 768px) {
+    .bg-semi-transparent {
+        background: rgba(0,0,0,.0)
+    }
+}
