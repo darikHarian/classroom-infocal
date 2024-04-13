@@ -227,11 +227,22 @@
         </section>
 
         <!-- Sección Contacto -->
-        <section id="contact" class="container-fluid bg-dark">
+        <section id="contact" class="container-fluid bg-dark pb-5">
             <!-- Título -->
             <div class="py-5 text-center">
                 <h1 class="text-uppercase text-white">Contacto</h1>
             </div>
+            
+            <!-- Formulario -->
+            <form class="d-flex flex-column">
+                <label class="form-label text-white fs-5" for="name">Nombre</label>
+                <input class="form-control" type="text" name="name" id="">
+                <label class="form-label text-white fs-5 mt-3" for="subject">Asunto</label>
+                <input class="form-control" type="text" name="subject" id="">
+                <label class="form-label text-white fs-5 mt-3" for="message">Mensaje</label>
+                <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
+                <button class="btn btn-info text-white fs-5 w-25 mt-3 mx-auto" type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
