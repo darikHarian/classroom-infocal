@@ -1,3 +1,4 @@
+// Función cambio color de fondo Navbar
 window.onscroll = function() {
     scrollFunction();
 };
@@ -9,3 +10,9 @@ const scrollFunction = () => {
         document.getElementById('navbar-bg').style.backgroundColor = 'transparent';
     };
 };
+
+// Función Tooltip
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+});
