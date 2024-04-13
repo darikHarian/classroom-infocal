@@ -1,3 +1,7 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .navbar-brand > img {
     width: 40px;
 }
@@ -24,6 +28,11 @@
 
 .footer-text, .footer-icons {
     text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
