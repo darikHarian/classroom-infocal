@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Blog FrontEnd</title>
 </head>
-<body>
-    
+<body class="body--font text--regular">
+    <header class="header">
+        <div class="logo containerType--width logo--height logo--padding block--centered">
+            <img class="logo__image logo__image--height logo__image--border" src="assets/img/logos/adl.png" alt="Logo ADL">
+            <p class="logo__text logo__text--margin text--bold">Blog FrontEnd</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="posts containerType--width block--centered grid grid-2">
+            <article class="news">
+                <h2 class="news__title">Novedades</h2>
+                <div class="card">
+                    <img class="news__card__image card__image card__image--rounded" src="assets/img/posts/bootstrap.png" alt="Post Bootstrap">
+                    <div class="card__body">
+                        <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                        <h2 class="card__body__title">
+                            Modifica el tema de Bootstrap con variables CSS
+                        </h2>
+                    </div>
+                </div>
+            </article>
+            <aside class="history">
+
+            </aside>
+        </section>
+
+        <section class="populares">
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="logo containerType--width logo--height logo--padding block--centered">
+            <img class="logo__image logo__image--height logo__image--border" src="assets/img/logos/adl.png" alt="Logo ADL">
+            <p class="logo__text logo__text--margin text--bold">Blog FrontEnd</p>
+        </div>
+    </footer>
 </body>
 </html>
