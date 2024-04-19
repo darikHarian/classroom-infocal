@@ -36,9 +36,7 @@
 
     /* Bloque tipo grid */
     .grid {
-        display: grid;
-        row-gap: 20px;
-        column-gap: 50px;
+        display: grid; 
     }
 
     /* Bloque con 2 columnas */
@@ -48,6 +46,35 @@
 
     .card__image {
         width: 100%;
+        object-fit: cover;
+    }
+
+    .bg-color1 {
+        background: #e93e30;
+    }
+
+    .bg-color2 {
+        background: #F7E018;
+    }
+
+    .bg-color3 {
+        background: #299ED5;
+    }
+
+    .bg-color4 {
+        background: #292C33;
+    }
+
+    .bg-color5 {
+        background: #67C770;
+    }
+
+    .bg-color6 {
+        background: #563D7C;
+    }
+
+    .text--white {
+        color: #fff;
     }
 
 /* BLOQUES */
@@ -60,6 +87,11 @@
 
     .main {
         width: 100%;
+    }
+
+    .posts {
+        row-gap: 20px;
+        column-gap: 50px;
     }
 
     .news {
@@ -75,6 +107,16 @@
         display: flex;
     }
 
+    .outstanding {
+        padding-bottom: 30px;
+        grid-template-columns: 620px 330px;
+        column-gap: 150px;
+    }
+
+    .popular {
+        width:620px;
+    }
+
 /* ELEMENTOS */
     .logo__image {
         height: 100%;
@@ -82,7 +124,6 @@
     }
 
     .news__card__image {
-        object-fit: cover;
         height: 320px;
     }
 
@@ -122,25 +163,51 @@
         margin-bottom: 15px;
     }
 
-    .history__card__body__logoDL {
+    .card__body__logoDL {
         display: flex;
     }
 
-    .history__card__body__logoDL__image {
+    .card__body__logoDL__image {
         width: 40px;
         height: 40px;
         border-radius: 20px;
     }
 
-    .history__card__body__logoDL__text {
+    .card__body__logoDL__text {
        margin-top: 10px;
     }
 
-    .popular__card {
+    .popular__cards {
+        width: 100%;
+        grid-template-columns: 298px 298px;
+        gap: 24px;
+    }
+
+    .popular__cards__card {
         width: 298px;
     }
 
-    .popular__card__image
+    .popular__cards__card__image {
+        height: 200px;
+    }
+
+    .categories__logos {
+        border-radius: 10px;
+        display: flex;
+        text-align: end;
+        margin-bottom: 20px;
+    }
+
+    .categories__logos__image {
+        height: 74px;
+        padding-left: 10px;
+    }
+
+    .categories__logos__text {
+        width: 100%;
+        padding-right: 20px;
+        font-size: 24px;
+    }
 
 /* MODIFICADORES */
     /* Márgenes del texto del logo */
