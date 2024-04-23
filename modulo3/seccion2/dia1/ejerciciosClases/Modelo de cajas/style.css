@@ -1,0 +1,29 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    border: 1px solid #171717;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    background-color: #729D2D;
+    border: 1px solid #171717;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
