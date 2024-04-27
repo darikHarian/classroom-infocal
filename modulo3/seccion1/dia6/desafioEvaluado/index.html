@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,67 +15,89 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo container--80 container--centered">
-            <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
-            <p class="logo__text text--bold">Blog FrontEnd</p>
-        </div>
+        <nav class="navbar container--80 container--centered grid grid--columns-2">
+            <div class="logo">
+                <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
+                <p class="logo__text text--bold">Blog FrontEnd</p>
+            </div>
+            <ul class="navbar__ul navbar-links d--flex list--none" id="navbar-links">
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="index.html">
+                        <button class="navbar__ul__li__a__button bg--lightgreen rounded text--white fs--20">Inicio</button>
+                    </a>
+                </li>
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="signup.html">
+                        <button class="navbar__ul__li__a__button bg--lightblue rounded text--white fs--20">Registro</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <hr>
     <main class="main">
         <section class="posts container--80 container--centered grid grid--columns-2">
             <article class="news">
                 <h2 class="news__title">Novedades</h2>
-                <div class="news__card">
-                    <img class="news__card__image cards" src="assets/img/posts/bootstrap.png" alt="Post Bootstrap">
-                    <div class="news__card__body">
-                        <h4 class="news__card__body__date text--regular">24 noviembre, 2022</h4>
-                        <h2 class="news__card__body__title">
-                            Modifica el tema de Bootstrap con variables CSS
-                        </h2>
-                        <div class="news__card__body__logo d--flex">
-                            <img class="news__card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="">
-                            <p class="news__card__body__logo__text text--medium fs--22">Desafío Latam</p>
+                <a href="post-bootstrap.html">
+                    <div class="news__card">
+                        <img class="news__card__image card--images" src="assets/img/posts/bootstrap.png" alt="Post Bootstrap">
+                        <div class="news__card__body">
+                            <h4 class="news__card__body__date text--regular">24 noviembre, 2022</h4>
+                            <h2 class="news__card__body__title">
+                                Modifica el tema de Bootstrap con variables CSS
+                            </h2>
+                            <div class="news__card__body__logo d--flex">
+                                <img class="news__card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="">
+                                <p class="news__card__body__logo__text text--medium fs--22">Desafío Latam</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </article>
             <aside class="history">
                 <div class="history__card d--flex">
                     <div class="history__card__image">
-                        <img class="history__card__image__img cards" src="assets/img/posts/Herencia-JS.png" alt="Logo JavaScript">
+                        <img class="history__card__image__img card--images" src="assets/img/posts/Herencia-JS.png" alt="Logo JavaScript">
                     </div>
-                    <div class="card__body">
-                        <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
-                        <H3 class="card__body__title">Herencia en<br>JavaScript</H3>
-                        <div class="card__body__logo d--flex">
-                            <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
-                            <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    <div class="card">
+                        <div class="card__body">
+                            <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                            <H3 class="card__body__title">Herencia en<br>JavaScript</H3>
+                            <div class="card__body__logo d--flex">
+                                <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                                <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="history__card d--flex">
                     <div class="history__card__image">
-                        <img class="history__card__image__img cards" src="assets/img/posts/etiquetas-semanticas-HTML.png" alt="Semántica">
+                        <img class="history__card__image__img card--images" src="assets/img/posts/etiquetas-semanticas-HTML.png" alt="Semántica">
                     </div>
-                    <div class="card__body">
-                        <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
-                        <H3 class="card__body__title">Etiquetas<br>semánticas</H3>
-                        <div class="card__body__logo d--flex">
-                            <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
-                            <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    <div class="card">
+                        <div class="card__body">
+                            <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                            <H3 class="card__body__title">Etiquetas<br>semánticas</H3>
+                            <div class="card__body__logo d--flex">
+                                <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                                <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="history__card d--flex">
                     <div class="history__card__image">
-                        <img class="history__card__image__img cards" src="assets/img/posts/reactComponents.png" alt="Logo React">
+                        <img class="history__card__image__img card--images" src="assets/img/posts/reactComponents.png" alt="Logo React">
                     </div>
-                    <div class="card__body">
-                        <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
-                        <H3 class="card__body__title">Componentes<br>React</H3>
-                        <div class="card__body__logo d--flex">
-                            <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
-                            <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    <div class="card">
+                        <div class="card__body">
+                            <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                            <H3 class="card__body__title">Componentes<br>React</H3>
+                            <div class="card__body__logo d--flex">
+                                <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                                <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,8 +108,8 @@
             <div class="popular">
                 <h2 class="popular__title text--bold">Populares</h2>
                 <div class="popular__cards grid">
-                    <div class="popular__cards__card">
-                        <img class="popular__cards__card__image cards" src="assets/img/posts/vue-components.png" alt="Logo Vue">
+                    <div class="card">
+                        <img class="card__image card--images" src="assets/img/posts/vue-components.png" alt="Logo Vue">
                         <div class="card__body">
                             <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
                             <h4 class="card__body__title">Componentes Vue</h4>
@@ -97,8 +119,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="popular__cards__card">
-                        <img class="popular__cards__card__image cards" src="assets/img/posts/api-js.png" alt="Base de datos">
+                    <div class="card">
+                        <img class="card__image card--images" src="assets/img/posts/api-js.png" alt="Base de datos">
                         <div class="card__body">
                             <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
                             <h4 class="card__body__title">Consumo de API con JavaScript</h4>
@@ -108,8 +130,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="popular__cards__card">
-                        <img class="popular__cards__card__image cards" src="assets/img/posts/sass.jpg" alt="Logo Sass">
+                    <div class="card">
+                        <img class="card__image card--images" src="assets/img/posts/sass.jpg" alt="Logo Sass">
                         <div class="card__body">
                             <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
                             <h4 class="card__body__title">CSS reutilizable con Sass</h4>
@@ -119,17 +141,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="popular__cards__card">
-                        <img class="popular__cards__card__image cards" src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap">
-                        <div class="card__body">
-                            <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
-                            <h4 class="card__body__title">Componentes Bootstrap</h4>
-                            <div class="card__body__logo d--flex">
-                                <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
-                                <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    <a href="post-bootstrap.html">
+                        <div class="card">
+                            <img class="card__image card--images" src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap">
+                            <div class="card__body">
+                                <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                                <h4 class="card__body__title">Componentes Bootstrap</h4>
+                                <div class="card__body__logo d--flex">
+                                    <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                                    <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="categories">
@@ -162,11 +186,22 @@
             </div>
         </section>
     </main>
+    <section class="subscribe container--80 container--centered">
+        <div class="subscribe__content bg--lightgreen rounded text--center text--white text--medium d--flex flex--column">
+            <p class="subscribe__content__title fs--20">
+                Mantente actualizado sobre el Desarrollo Front End
+            </p>
+            <div class="subscribe__content__elements d--flex">
+                <input class="subscribe__content__elements__input rounded text--center fs--24" type="text">
+                <button class="subscribe__content__elements__button rounded">Suscríbete</button>
+            </div>
+        </div>
+    </section>
     <hr>
     <footer class="footer container--80 container--centered d--flex">
         <div class="footer__logo logo">
             <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
-            <p class="logo__text --text-bold">Blog FrontEnd</p>
+            <p class="logo__text text--bold">Blog FrontEnd</p>
         </div>
         <div class="footer__text-right text--end">
             <p class="footer__text-right__text">Desafío Latam - 2024</p>

@@ -1,0 +1,16 @@
+.post {
+    .post__text {
+        margin: auto var(--50);
+        padding: var(--30) var(--none);
+    }
+
+    .post__image {
+        width: var(--rel-70);
+        padding: var(--30) var(--none);
+
+        .post__image__img {
+            width: var(--rel-100);
+            object-fit: cover;
+        }
+    }
+}

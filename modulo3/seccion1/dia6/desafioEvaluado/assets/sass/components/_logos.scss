@@ -1,0 +1,14 @@
+.logo {
+    display: var(--d-flex);
+    height: var(--40);
+    padding: var(--20) 0;
+
+    .logo__image {
+        height: var(--extend-100);
+        border-radius: calc(var(--5) + var(--2));
+    }
+
+    .logo__text {
+        margin: auto var(--10);
+    }
+}

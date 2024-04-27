@@ -1,0 +1,14 @@
+.footer {
+    .footer__logo {
+        width: var(--rel-50);
+    }
+
+    .footer__text-right {
+        width: var(--rel-50);
+        
+        .footer__text-right__text {
+            width: var(--rel-100);
+            padding-top: var(--10);
+        }
+    }
+}

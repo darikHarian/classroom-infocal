@@ -1,0 +1,40 @@
+.card--images {
+    width: var(--rel-100);
+    border-radius: var(--20);
+    object-fit: cover;
+}
+
+.card {
+    width: calc(var(--200) + var(--50) + var(--40) + var(--5) + var(--3));
+
+    .card__image {
+        height: var(--200);
+    }
+
+    .card__body {
+        margin-left: var(--20);
+    
+        .card__body__date {
+            margin-top: calc(var(--5) + var(--2));
+            margin-bottom: var(--5);
+        }
+    
+        .card__body__title {
+            margin-top: var(--none);
+            margin-bottom: var(--5);
+        }
+    
+        .card__body__logo {
+    
+            .card__body__logo__image {
+                width: var(--40);
+                height: var(--40);
+            }
+        
+            .card__body__logo__text {
+                margin-top: var(--10);
+                margin-left: var(--10);
+            }
+        }
+    }
+}

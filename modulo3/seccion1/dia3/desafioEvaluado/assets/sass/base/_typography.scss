@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text--regular {
+    font-weight: var(--font-regular);
+}
+
+.text--medium {
+    font-weight: var(--font-medium);
+}
+
+.text--bold {
+    font-weight: var(--font-bold);
+}
+
+.text--end {
+    text-align: end;
+}
+
+.text--white {
+    color: var(--color-white);
+}
+
+.fs--22 {
+    font-size: var(--22);
+}
+
+.fs--24 {
+    font-size: var(--24);
+}

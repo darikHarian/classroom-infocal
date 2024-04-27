@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text--regular {
+    font-weight: var(--font-regular);
+}
+
+.text--medium {
+    font-weight: var(--font-medium);
+}
+
+.text--bold {
+    font-weight: var(--font-bold);
+}
+
+.text--end {
+    text-align: end;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--white {
+    color: var(--color-white);
+}
+
+.text--grey {
+    color: var(--color-grey);
+}
+
+.text--darkgrey {
+    color: var(--color-darkgrey);
+}
+
+.text--dark {
+    color: var(--color-dark);
+}
+
+.fs--16 {
+    font-size: calc(var(--10) + var(--5) + var(--1));
+}
+
+.fs--20 {
+    font-size: var(--20);
+}
+
+.fs--22 {
+    font-size: calc(var(--20) + var(--2));
+}
+
+.fs--24 {
+    font-size: calc(var(--20) + var(--4));
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-dark)
+}
+
+.text--justify {
+    text-align: justify;
+}
+
+.td--none {
+    text-decoration: none;
+}

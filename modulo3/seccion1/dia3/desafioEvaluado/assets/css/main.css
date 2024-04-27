@@ -1,0 +1,251 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-red: #E93E30;
+  --color-yellow: #F7E018;
+  --color-lightblue: #299ED5;
+  --color-dark: #292C33;
+  --color-green: #67C770;
+  --color-purple: #563D7C;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --rel-100: 100%;
+  --rel-50: 50%;
+  --rel-width-80: 80vw;
+  --rel-height-80: 80vh;
+  --1100: 1100px;
+  --620: 620px;
+  --600: 600px;
+  --330: 330px;
+  --320: 320px;
+  --298: 298px;
+  --200: 200px;
+  --190: 190px;
+  --150: 150px;
+  --145: 145px;
+  --80: 80px;
+  --75: 75px;
+  --74: 74px;
+  --70: 70px;
+  --65: 65px;
+  --60: 60px;
+  --55: 55px;
+  --50: 50px;
+  --40: 40px;
+  --30: 30px;
+  --24: 24px;
+  --22: 22px;
+  --20: 20px;
+  --15: 15px;
+  --10: 10px;
+  --7: 7px;
+  --5: 5px;
+  --none: 0px;
+  --d-flex: flex;
+  --d-grid: grid;
+  --grid-columns-1: auto;
+  --grid-columns-2: auto auto;
+  --grid-columns-3: auto auto auto;
+}
+
+.container--centered {
+  margin: 0 auto;
+}
+
+hr {
+  width: var(--1100);
+}
+
+.img--circle {
+  border-radius: var(--rel-50);
+}
+
+.d--flex {
+  display: var(--d-flex);
+}
+
+.bg--black {
+  background: var(--color-black);
+}
+
+.bg--red {
+  background: var(--color-red);
+}
+
+.bg--yellow {
+  background: var(--color-yellow);
+}
+
+.bg--lightblue {
+  background: var(--color-lightblue);
+}
+
+.bg--dark {
+  background: var(--color-dark);
+}
+
+.bg--green {
+  background: var(--color-green);
+}
+
+.bg--purple {
+  background: var(--color-purple);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.text--regular {
+  font-weight: var(--font-regular);
+}
+
+.text--medium {
+  font-weight: var(--font-medium);
+}
+
+.text--bold {
+  font-weight: var(--font-bold);
+}
+
+.text--end {
+  text-align: end;
+}
+
+.text--white {
+  color: var(--color-white);
+}
+
+.fs--22 {
+  font-size: var(--22);
+}
+
+.fs--24 {
+  font-size: var(--24);
+}
+
+.footer .footer__logo {
+  width: var(--rel-50);
+}
+.footer .footer__text-right {
+  width: var(--rel-50);
+}
+.footer .footer__text-right .footer__text-right__text {
+  width: var(--rel-100);
+  padding-top: var(--10);
+}
+
+.posts {
+  row-gap: var(--20);
+  column-gap: var(--50);
+  padding-bottom: var(--30);
+}
+
+.news {
+  width: var(--600);
+}
+.news .news__card .news__card__image {
+  height: var(--320);
+}
+.news .news__card .news__card__body .news__card__body__logo__image {
+  width: var(--60) !important;
+  height: var(--60);
+}
+.news .news__card .news__card__body .news__card__body__logo__text {
+  margin-left: var(--10);
+}
+
+.history {
+  margin-top: var(--55);
+}
+.history .history__card {
+  margin-top: var(--20);
+}
+.history .history__card .history__card__image .history__card__image__img {
+  width: var(--190);
+  height: var(--145);
+}
+
+.outstanding {
+  grid-template-columns: var(--620) var(--330);
+  column-gap: var(--150);
+  padding-bottom: var(--30);
+}
+.outstanding .popular {
+  width: var(--620);
+}
+.outstanding .popular .popular__cards {
+  width: var(--rel-100);
+  grid-template-columns: var(--298) var(--298);
+  gap: var(--24);
+}
+.outstanding .popular .popular__cards .popular__cards__card {
+  width: var(--298);
+}
+.outstanding .popular .popular__cards .popular__cards__card .popular__cards__card__image {
+  height: var(--200);
+}
+.outstanding .categories .categories__brands {
+  border-radius: var(--10);
+  margin-bottom: var(--20);
+}
+.outstanding .categories .categories__brands .categories__brands__image {
+  height: var(--65);
+  padding: var(--10) var(--none) var(--10) var(--10);
+}
+.outstanding .categories .categories__brands .categories__brands__text {
+  width: var(--rel-100);
+  padding-right: var(--20);
+}
+
+.cards {
+  width: var(--rel-100);
+  border-radius: var(--20);
+  object-fit: cover;
+}
+
+.card__body {
+  margin-left: var(--20);
+}
+.card__body .card__body__date {
+  margin-top: var(--7);
+  margin-bottom: var(--5);
+}
+.card__body .card__body__title {
+  margin-top: var(--none);
+  margin-bottom: var(--5);
+}
+.card__body .card__body__logo .card__body__logo__image {
+  width: var(--40);
+  height: var(--40);
+}
+.card__body .card__body__logo .card__body__logo__text {
+  margin-top: var(--10);
+  margin-left: var(--10);
+}
+
+.container--80 {
+  width: var(--1100);
+}
+
+.grid {
+  display: var(--d-grid);
+}
+
+.grid--columns-2 {
+  grid-template-columns: var(--grid-columns-2);
+}
+
+.logo {
+  display: var(--d-flex);
+  height: var(--40);
+  padding: var(--20) 0;
+}
+.logo .logo__image {
+  height: var(--extend-100);
+  border-radius: var(--7);
+}
+.logo .logo__text {
+  margin: auto var(--10);
+}/*# sourceMappingURL=main.css.map */

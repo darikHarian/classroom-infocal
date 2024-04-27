@@ -1,0 +1,16 @@
+// Subscribe
+
+.subscribe {
+
+    .subscribe__content {
+
+        .subscribe__content__elements {
+
+            .subscribe__content__elements__button {
+                width: calc(var(--100) + var(--50));
+                margin-left: var(--50);
+                border: none;
+            }
+        }
+    }
+}

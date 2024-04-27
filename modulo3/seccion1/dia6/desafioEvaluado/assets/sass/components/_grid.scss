@@ -1,0 +1,11 @@
+.grid {
+    display: var(--d-grid);
+}
+
+.grid--columns-2 {
+    grid-template-columns: var(--grid-columns-2);
+}
+
+.grid--columns-3 {
+    grid-template-columns: var(--grid-columns-3);
+}

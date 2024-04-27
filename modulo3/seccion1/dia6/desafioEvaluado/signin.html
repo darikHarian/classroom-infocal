@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/logos/adl.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Inicia Sesión</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container--80 container--centered grid grid--columns-2">
+            <div class="logo">
+                <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
+                <p class="logo__text text--bold">Blog FrontEnd</p>
+            </div>
+            <ul class="navbar__ul navbar-links d--flex list--none" id="navbar-links">
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="index.html">
+                        <button class="navbar__ul__li__a__button bg--lightgreen rounded text--white fs--20">Inicio</button>
+                    </a>
+                </li>
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="signup.html">
+                        <button class="navbar__ul__li__a__button bg--lightblue rounded text--white fs--20">Registro</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main class="main container--80 container--centered">
+        <section class="form d--flex flex--column">
+            <div class="form__title text--center">
+                <h3 class="form__title__text text--medium">¡Ingresa a tu cuenta!</h3>
+            </div>
+            <input type="email" class="form__input rounded fs--20" placeholder="Email">
+            <input type="password" class="form__input rounded fs--20" placeholder="Contraseña">
+            <a href="index.html">
+                <button class="form__button bg--lightgreen text--white rounded no--border fs--16">Ingresa</button>
+            </a>
+            <a href="#">
+                <button class="form__button-google d--flex bg--lightgrey text--bold rounded no--border fs--16">
+                    <img class="form__button-google__icon" src="assets/img/logos/google.png" alt="">
+                    <p class="form__button-google__text text--dark">Ingresa con Google</p>
+                </button>
+            </a>
+            <div class="form__message d--flex">
+                <p class="form__message__text">¿Olvidaste tu contraseña?</p>
+                <a href="#"><p class="form__message__tex text--bold pl--1">Reestablécela</p></a>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer container--80 container--centered d--flex">
+        <div class="footer__logo logo">
+            <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
+            <p class="logo__text text--bold">Blog FrontEnd</p>
+        </div>
+        <div class="footer__text-right text--end">
+            <p class="footer__text-right__text">Desafío Latam - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

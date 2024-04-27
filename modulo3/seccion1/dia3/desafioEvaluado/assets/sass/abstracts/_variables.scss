@@ -1,0 +1,61 @@
+:root {
+    // Colors
+    --color-white: #fff;
+    --color-black: #000;
+    --color-red: #E93E30;
+    --color-yellow: #F7E018;
+    --color-lightblue: #299ED5;
+    --color-dark: #292C33;
+    --color-green: #67C770;
+    --color-purple: #563D7C;
+
+    // Font Weights
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+
+    // Relatives units
+    --rel-100: 100%;
+    --rel-50: 50%;
+    --rel-width-80: 80vw;
+    --rel-height-80: 80vh;
+
+    // Fixed units px
+    --1100: 1100px;
+    --620: 620px;
+    --600: 600px;
+    --330: 330px;
+    --320: 320px;
+    --298: 298px;
+    --200: 200px;
+    --190: 190px;
+    --150: 150px;
+    --145: 145px;
+    --80: 80px;
+    --75: 75px;
+    --74: 74px;
+    --70: 70px;
+    --65: 65px;
+    --60: 60px;
+    --55: 55px;
+    --50: 50px;
+    --40: 40px;
+    --30: 30px;
+    --24: 24px;
+    --22: 22px;
+    --20: 20px;
+    --15: 15px;
+    --10: 10px;
+    --7: 7px;
+    --5: 5px;
+    --none: 0px;
+    
+    // Display
+    --d-flex: flex;
+    --d-grid: grid;
+
+    // Grid columns
+    --grid-columns-1: auto;
+    --grid-columns-2: auto auto;
+    --grid-columns-3: auto auto auto;
+}

@@ -1,0 +1,20 @@
+.navbar {
+
+    .navbar__ul {
+        justify-content: end;
+        margin-top: var(--20);
+
+        .navbar__ul__li {
+            width: calc(var(--100) + var(--40) + var(--5));
+
+            .navbar__ul__li__a {
+
+                .navbar__ul__li__a__button {
+                    width: calc(var(--100) + var(--20));
+                    border: none;
+                    padding: var(--10) var(--5);
+                }
+            }
+        }
+    }
+}

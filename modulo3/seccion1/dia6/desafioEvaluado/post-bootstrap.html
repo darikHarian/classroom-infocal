@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/logos/adl.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Post Bootstrap</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container--80 container--centered grid grid--columns-2">
+            <div class="logo">
+                <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
+                <p class="logo__text text--bold">Blog FrontEnd</p>
+            </div>
+            <ul class="navbar__ul navbar-links d--flex list--none" id="navbar-links">
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="index.html">
+                        <button class="navbar__ul__li__a__button bg--lightgreen rounded text--white fs--20">Inicio</button>
+                    </a>
+                </li>
+                <li class="navbar__ul__li">
+                    <a class="navbar__ul__li__a" href="signup.html">
+                        <button class="navbar__ul__li__a__button bg--lightblue rounded text--white fs--20">Registro</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main class="main container--80 container--centered">
+        <h3>Modifica el tema de Bootstrap con variables CSS</h3>
+        <div class="">
+            <div class="card__body d--flex">
+                <div class="logo">
+                    <img class="logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                    <p class="logo__text text--medium">Desafío Latam</p>
+                </div>
+                <h4 class="card__body__date text--regular pt--1 pl--5">24 noviembre, 2022</h4>
+            </div>
+        </div>
+        <article class="post bg--lightgrey rounded">
+            <p class="post__text text--justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias atque voluptate numquam
+                sequi debitis nulla unde veritatis magni optio tenetur perferendis praesentium, veniam dignissimos
+                cupiditate voluptatibus? Tenetur, magni nesciunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti alias reprehenderit error
+                esse deserunt nemo ullam officia neque, veniam rerum enim molestias earum maxime officiis ab
+                laudantium commodi quae!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere perspiciatis in vero quod
+                fuga ex? Atque nobis cupiditate tempore recusandae dignissimos assumenda quae delectus? Et ut sit
+                fugiat optio.
+            </p>
+            <div class="post__image bg--purple text--center rounded--2 container--centered">
+                <img class="post__image__img" src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap">
+            </div>
+            <p class="post__text text--justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam cumque inventore dicta odio
+                consequatur quasi molestias beatae fugiat earum dignissimos suscipit, illo voluptas natus
+                laborum eveniet provident veritatis hic porro!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam sed nesciunt doloribus
+                beatae esse incidunt ducimus quae! Nobis quis et libero aperiam eum quae amet mollitia explicabo
+                corrupti rerum!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat temporibus eligendi eveniet
+                explicabo doloremque. Ea, libero velit sint doloremque voluptates iste pariatur accusantium
+                perferendis sapiente atque error, unde eum asperiores?
+            </p>
+        </article>
+    </main>
+    <section class="related container--80 container--centered">
+        <h3 class="related__title">Relacionados</h3>
+        <div class="related__cards grid grid--columns-3">
+            <div class="card container--centered">
+                <img class="card__image card--images" src="assets/img/posts/vue-components.png" alt="Logo Vue">
+                <div class="card__body">
+                    <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                    <h4 class="card__body__title">Componentes Vue</h4>
+                    <div class="card__body__logo d--flex">
+                        <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="">
+                        <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card container--centered">
+                <img class="card__image card--images" src="assets/img/posts/api-js.png" alt="Base de datos">
+                <div class="card__body">
+                    <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                    <h4 class="card__body__title">Consumo de API con JavaScript</h4>
+                    <div class="card__body__logo d--flex">
+                        <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                        <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card container--centered">
+                <img class="card__image card--images" src="assets/img/posts/sass.jpg" alt="Logo Sass">
+                <div class="card__body">
+                    <h4 class="card__body__date text--regular">24 noviembre, 2022</h4>
+                    <h4 class="card__body__title">CSS reutilizable con Sass</h4>
+                    <div class="card__body__logo d--flex">
+                        <img class="card__body__logo__image img--circle" src="assets/img/logos/adl.png" alt="Logo ADL">
+                        <p class="card__body__logo__text text--medium">Desafío Latam</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer container--80 container--centered d--flex">
+        <div class="footer__logo logo">
+            <img class="logo__image" src="assets/img/logos/adl.png" alt="Logo ADL">
+            <p class="logo__text text--bold">Blog FrontEnd</p>
+        </div>
+        <div class="footer__text-right text--end">
+            <p class="footer__text-right__text">Desafío Latam - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

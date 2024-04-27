@@ -1,0 +1,21 @@
+.subscribe {
+    margin-bottom: var(--30);
+
+    .subscribe__content {
+        margin: var(--none) var(--30);
+
+        .subscribe__content__title {
+            margin: var(--30) auto;
+        }
+
+        .subscribe__content__elements {
+            justify-content: center;
+            margin-bottom: var(--30);
+
+            .subscribe__content__elements__input {
+                width: calc(var(--300) + var(--20));
+                border: none;
+            }
+        }
+    }
+}
