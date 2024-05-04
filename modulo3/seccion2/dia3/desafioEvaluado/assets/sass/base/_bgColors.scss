@@ -1,0 +1,19 @@
+.bg--green-1 {
+    background: map-get($colors, 'color-shinyShamrock');
+}
+
+.bg--green-2 {
+    background: map-get($colors, 'color-turquoiseGreen');
+}
+
+.bg--coral {
+    background: map-get($colors, 'color-coral');
+}
+
+.bg--flame {
+    background: map-get($colors, 'color-flame');
+}
+
+.bg--blueDeFrance {
+    background: map-get($colors, 'color-blueDeFrance');
+}

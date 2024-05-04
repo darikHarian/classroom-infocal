@@ -1,0 +1,15 @@
+.text--regular {
+    font-weight: map-get($font-weights, 'regular');
+}
+
+.text--medium {
+    font-weight: map-get($font-weights , 'medium');
+}
+
+.text--bold {
+    font-weight: map-get($font-weights, 'bold');
+}
+
+.text--center {
+    text-align: center;
+}

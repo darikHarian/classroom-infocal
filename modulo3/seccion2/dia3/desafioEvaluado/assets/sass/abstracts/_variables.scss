@@ -1,0 +1,40 @@
+$colors: (
+    'color-white': #fff,
+    'color-isabelline': #eeeded,
+    'color-spanishGray': #989797,
+    'color-coral': #ffc107,
+    'color-buff': #f1dd7b,
+    'color-vanilla': #f5e7a1,
+    'color-flame': #e4572e,
+    'color-lightRedOchre': #e87554,
+    'color-pastelPink': #f2b2a0,
+    'color-shinyShamrock': #4ca866,
+    'color-turquoiseGreen': #9dcfab,
+    'color-pastelGray': #bddfc7,
+    'color-blueDeFrance': #3c91e6,
+    'color-blueJeans': #5fa5ea,
+    'color-jordyBlue': #82b9ef,
+    'color-black': #000,
+    'color-outerSpace': #454545,
+    'color-quickSilver': #a2a2a2
+);
+
+$grid-cols: (
+    'grid-cols-1': auto,
+    'grid-cols-2': auto auto,
+    'grid-cols-3': auto auto auto
+);
+
+$breakpoints: (
+    'sm': (min-width: 576px),
+    'md': (min-width: 768px),
+    'lg': (min-width: 992px),
+    'xl': (min-width: 1200px),
+    'xxl': (min-width: 1400px)
+);
+
+$font-weights: (
+    'regular': 400,
+    'medium': 500,
+    'bold': 700
+);
