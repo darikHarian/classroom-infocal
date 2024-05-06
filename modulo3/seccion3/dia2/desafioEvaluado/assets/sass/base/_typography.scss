@@ -1,0 +1,53 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text--primary {
+    color: map-get($colors, 'color-primary');
+}
+
+.text--secondary {
+    color: map-get($colors, 'color-secondary');
+}
+
+.text--featured {
+    color: map-get($colors, 'color-featured');
+}
+
+.text--blue {
+    color: map-get($colors, 'color-blue');
+}
+
+.text--coldBlue {
+    color: map-get($colors, 'color-coldBlue');
+}
+
+.text--teal {
+    color: map-get($colors, 'color-teal');
+}
+
+.text--lightTeal {
+    color: map-get($colors, 'color-lightTeal');
+}
+
+.fs--1 {
+    font-size: 48px;
+
+    @include media-breakpoint('md') {
+        font-size: 64px;
+    }
+}
+
+.fs--2 {
+    font-size: 32px;
+
+    @include media-breakpoint('md') {
+        font-size: 48px;
+    }
+}
+
+a {
+    text-decoration: none;
+}

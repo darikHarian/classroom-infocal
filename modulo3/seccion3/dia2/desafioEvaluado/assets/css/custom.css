@@ -1,0 +1,144 @@
+.bg--primary {
+  background: #1E0342;
+}
+
+.bg--secondary {
+  background: #290659;
+}
+
+.bg--featured {
+  background: #0E46A3;
+}
+
+.bg--blue {
+  background: #5356FF;
+}
+
+.bg--coldBlue {
+  background: #378CE7;
+}
+
+.bg--teal {
+  background: #9AC8CD;
+}
+
+.bg--lightTeal {
+  background: #E1F7F5;
+}
+
+.body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.text--primary {
+  color: #1E0342;
+}
+
+.text--secondary {
+  color: #290659;
+}
+
+.text--featured {
+  color: #0E46A3;
+}
+
+.text--blue {
+  color: #5356FF;
+}
+
+.text--coldBlue {
+  color: #378CE7;
+}
+
+.text--teal {
+  color: #9AC8CD;
+}
+
+.text--lightTeal {
+  color: #E1F7F5;
+}
+
+.fs--1 {
+  font-size: 48px;
+}
+@media (min-width: 768px) {
+  .fs--1 {
+    font-size: 64px;
+  }
+}
+
+.fs--2 {
+  font-size: 32px;
+}
+@media (min-width: 768px) {
+  .fs--2 {
+    font-size: 48px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background: url("/assets/img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
+.banner .banner__text {
+  text-shadow: 4px 3px 5px #000;
+}
+.banner .banner__text .banner__text__subTitle {
+  letter-spacing: 2px;
+}
+.banner .banner__text .banner__text__a .banner__text__a__button {
+  width: 130px;
+}
+
+.skills .skills__skill {
+  height: 50px;
+}
+
+.contact {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 992px) {
+  .contact {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+.form .form__input::placeholder, .form .form__textarea::placeholder {
+  color: #9AC8CD;
+  padding-left: 10px;
+}
+.form .form__elements .form__elements__name, .form .form__elements .form__elements__lastname {
+  width: 47%;
+}
+.form .form__elements .form__elements__email, .form .form__elements .form__textarea {
+  width: 100%;
+}
+.form .form__elements .form__button {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .form .form__elements .form__button {
+    width: 150px;
+  }
+}
+
+.navbar .navbar__brand {
+  font-family: "Jaini", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.button:hover {
+  background: #378CE7;
+}/*# sourceMappingURL=custom.css.map */

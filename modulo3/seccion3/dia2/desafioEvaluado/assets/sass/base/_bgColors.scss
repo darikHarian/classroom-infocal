@@ -1,0 +1,27 @@
+.bg--primary {
+    background: map-get($colors, 'color-primary' );
+}
+
+.bg--secondary {
+    background: map-get($colors, 'color-secondary');
+}
+
+.bg--featured {
+    background: map-get($colors, 'color-featured');
+}
+
+.bg--blue {
+    background: map-get($colors, 'color-blue');
+}
+
+.bg--coldBlue {
+    background: map-get($colors, 'color-coldBlue');
+}
+
+.bg--teal {
+    background: map-get($colors, 'color-teal');
+}
+
+.bg--lightTeal {
+    background: map-get($colors, 'color-lightTeal');
+}

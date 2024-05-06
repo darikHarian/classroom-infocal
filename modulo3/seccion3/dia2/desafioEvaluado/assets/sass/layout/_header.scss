@@ -1,0 +1,21 @@
+.banner {
+    background: url('/assets/img/banner.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+
+    .banner__text {
+        text-shadow: 4px 3px 5px map-get($colors, 'color-black');
+
+        .banner__text__subTitle {
+            letter-spacing: 2px;
+        }
+
+        .banner__text__a {
+            .banner__text__a__button {
+                width: 130px;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+$colors: (
+    'color-primary': #1E0342,
+    'color-secondary': #290659,
+    'color-featured': #0E46A3,
+    'color-blue': #5356FF,
+    'color-coldBlue': #378CE7,
+    'color-teal': #9AC8CD,
+    'color-lightTeal': #E1F7F5,
+    'color-white': #fff,
+    'color-black': #000
+);
+
+$breakpoints: (
+    'sm': (min-width: 576px),
+    'md': (min-width: 768px),
+    'lg': (min-width: 992px),
+    'xl': (min-width: 1200px),
+    'xxl': (min-width: 1400px)
+);

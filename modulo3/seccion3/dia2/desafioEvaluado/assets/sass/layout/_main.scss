@@ -1,0 +1,42 @@
+.skills {
+    .skills__skill {
+        height: 50px;
+    }
+}
+
+.contact {
+    padding-left: 0;
+    padding-right: 0;
+
+    @include media-breakpoint('lg') {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
+
+.form {
+    .form__input::placeholder, .form__textarea::placeholder {
+        color: map-get($colors, 'color-teal');
+        padding-left: 10px;
+    }
+    
+    .form__elements {
+        .form__elements__name, .form__elements__lastname {
+            width: 47%;
+        }
+    
+        .form__elements__email, .form__textarea {
+            width: 100%;
+        }
+
+        .form__button {
+            width: 100%;
+        }
+    
+        .form__button {
+            @include media-breakpoint('lg') {
+                width: 150px;
+            }
+        }
+    }
+}
