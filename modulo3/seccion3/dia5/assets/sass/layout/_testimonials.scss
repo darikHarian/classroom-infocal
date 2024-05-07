@@ -1,0 +1,25 @@
+.article {
+    width: 70%;
+    margin: 0 auto;
+
+    @include media-breakpoint('lg') {
+        margin: auto 10px;
+    }
+
+    .article__text {
+        font-size: 12px !important;
+        font-style: italic;
+    }
+
+    .article__image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        .article__image__img {
+            width: 130%;
+            height: 130%;
+        }
+    }
+}

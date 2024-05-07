@@ -1,0 +1,92 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar-bg {
+    height: 8.5vh;
+    background: transparent;
+    top: -1px;
+    filter: blur(1px);
+}
+
+.navbar-brand > img {
+    width: 40px;
+}
+
+.navbar-brand > span, .nav-item {
+    text-shadow: 3px 2px 3px #000;
+}
+
+.bg-menu-transparent {
+    background: #212529;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.text-about {
+    height: 290px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img > img {
+    height: 100%;
+}
+
+.card-txt {
+    height: 11vh;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.footer-text, .footer-icons {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    #navbar-bg {
+        height: 7.5vh;
+    }
+
+    .footer-text {
+        text-align: start;
+        padding-left: 10vw;
+    }
+
+    .footer-icons {
+        text-align: end;
+        padding-right: 10vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bg-menu-transparent {
+        background: transparent;
+    }
+
+    .carousel-item {
+        height: 500px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+}
