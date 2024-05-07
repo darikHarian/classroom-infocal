@@ -1,10 +1,4 @@
 .banner {
-    background: url('/assets/img/banner.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-
     .banner__text {
         text-shadow: 4px 3px 5px map-get($colors, 'color-black');
 
