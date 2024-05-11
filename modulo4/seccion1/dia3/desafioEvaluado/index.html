@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="assets/js/index.js"></script>
+
+    <title>¡K-Shi-Poon! V1.0.0</title>
+</head>
+<body class="d-flex align-items-center">
+    <main class="container">
+        <div class="title text-center">
+            <h1 class="fw-bold">¡K-Shi-Poon!</h1>
+        </div>
+        
+        <section class="game row mt-4 text-center">
+            <div class="col-5">
+                <button id="playerName" class="players rounded-pill fw-bold bg-primary text-white fs-5">Player</button>
+                <div class="user card bg-primary-subtle rounded-6 p-0 mx-auto" id="userImage">
+                    <img src="assets/img/userDefault.png" alt="">
+                </div>
+                <div id="playerScoreText" class="invisible">
+                    <button class="scores rounded-3 bg-primary text-white">
+                        <Span class="fs-3 fw-bold">Puntaje:</Span>
+                        <span id="playerScoreValue" class="fs-3">0</span>
+                    </button>
+                </div>
+            </div>
+            <div class="result col-2 invisible mt-5" id="result">
+                <h1 id="gameNumber" class="text-white">&#24;<br>&#24;</h1>
+                <button id="partials" class="bg-warning rounded-4 fs-3">&#24;</button>
+            </div>
+            <div class="col-5">
+                <button class="players rounded-pill fw-bold bg-danger text-white fs-5">CPU</button>
+                <div class="cpu card bg-danger-subtle rounded-6 p-0 mx-auto" id="cpuImage">
+                    <img src="assets/img/cpuDefault.jpeg" alt="">
+                </div>
+                <div id="cpuScoreText" class="invisible">
+                    <button class="scores rounded-3 bg-danger text-white">
+                        <Span class="fs-3 fw-bold">Puntaje:</Span>
+                        <span id="cpuScoreValue" class="fs-3">0</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <form id="form" class="form mt-4">
+            <div class="pt-5">
+                <input id="userName" class="form-control w-25 mx-auto text-center rounded-4" type="text" placeholder="Ingresa tu nombre">
+            </div>
+            <div>
+                <input id="nGames" class="form-control w-25 mt-3 mx-auto text-center rounded-4" type="number" placeholder="Nro de juegos">
+            </div>
+            <div class="text-center">
+                <button id="startGame" class="btn btn-primary fw-bold mt-3" type="submit">¡Comenzar!</button>
+            </div>
+        </form>
+        <section id="move" class="mt-4 text-center d-none">
+            <h1 class="text-white">Selecciona tu jugada</h1>
+            <div class="moves mt-5">
+                <img id="moveStone" class="moveSelected" src="assets/img/moveStone.png" alt="move Stone">
+                <img id="movePaper" class="moveSelected mx-5" src="assets/img/movePaper.png" alt="move Paper">
+                <img id="moveScissor" class="moveSelected" src="assets/img/moveScissor.png" alt="move Scissor">
+            </div>
+        </section>
+        <section id="finalScore" class="mt-4 text-center d-none">
+                <h1 class="text-white">Marcador Final</h1>
+            <div id="finalScoreScores">
+                <button id="playerButton" class="scoreButtons bg-primary rounded-4 text-white fs-3 me-2"></button>
+                <button id="cpuButton" class="scoreButtons bg-danger rounded-4 text-white fs-3 ms-2"></button>
+            </div>
+            <div id="finalResult" class="text-white my-4"></div>
+            <button class="btn btn-success fs-3" onclick="restartGame()">¡Volver a jugar!</button>
+        </section>
+    </main>
+</body>
+</html>

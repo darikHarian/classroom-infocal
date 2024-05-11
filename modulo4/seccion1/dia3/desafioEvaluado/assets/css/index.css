@@ -1,0 +1,55 @@
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Kolker Brush', cursive;
+
+    h1 {
+        font-size: 102px;
+        -webkit-text-stroke: 1px #0d6efd;
+        color: #ffc107;
+        text-shadow: 2px 2px 2px #ffc107;
+    }
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+
+    img {
+        width: 300px;
+    }
+}
+
+.rounded-6 {
+    border-radius: 22%;
+}
+
+#form, #move, #finalScore {
+    height: 20vh;
+}
+
+.moves > img {
+    width: 150px;
+}
+
+.moveSelected {
+    cursor: pointer;
+}
+
+.players, .scores, .scoreButtons, #partials {
+    width: 200px;
+    padding: 7px 2px;
+    cursor: default !important;
+}
+
+#move,#gameNumber, #finalScore {
+    text-shadow: 0px 0px 7px #000;
+    filter: drop-shadow(0px 0px #000);
+}
