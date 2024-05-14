@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2>
+                Resultado: <span class="resultado"></span>
+            </h2>
+            <div>
+                <div>
+                    <div>
+                        <label for="">Valor 1</label>
+                        <input id="valor1" type="text">
+                    </div>
+                    <div>
+                        <label for="">Valor 2</label>
+                        <input id="valor2" type="text">
+                    </div>
+                    <div style="display: flex">
+                        <button id="btn-sumar" type="button">
+                            Sumar
+                        </button>
+                        <button id="btn-restar" type="button">
+                            Restar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Escríbe aquí tu código
+        let button = document.querySelectorAll('button');
+        let resultado = document.querySelector('.resultado');
+        button.forEach(function(operation){
+            operation.addEventListener('click', function(){
+                let valor1 = document.getElementById('valor1');
+                let valor2 = document.getElementById('valor2');
+                valor1 = Number(valor1.value);
+                valor2 = Number(valor2.value);
+                if (operation.id == 'btn-sumar') {
+                    let rSuma = valor1 + valor2;
+                    resultado.innerHTML = rSuma;
+                } else {
+                    let rResta = valor1 - valor2;
+                    if (rResta < 1) {
+                        rResta = 0;
+                    };
+                    resultado.innerHTML = rResta;
+                };
+            });
+        });
+    </script>
+</body>
+
+</html>
