@@ -1,0 +1,19 @@
+.header__banner__logo {
+    width: 50px;
+}
+
+.card-image {
+    width: 30vw;
+}
+
+.card-body {
+    width: 70vw;
+}
+
+#heroPowerStats {
+    width: 35vw;
+}
+
+.canvasjs-chart-canvas {
+    border-radius: 20px;
+}
